@@ -1,6 +1,8 @@
 body{
     background: #b8e6b3;
     margin: 0;
+    transition: all .5s;
+    /* overflow: hidden; */
 }
 .container{
     perspective: 1000px;
@@ -13,6 +15,7 @@ body{
     margin: 100px auto;
     transform-style: preserve-3d;
     transform: rotateX(0deg) rotateY(0deg);
+    transition: all .3s;
 }
 .box{
     position: relative;
@@ -22,6 +25,7 @@ body{
     text-align: center;
     line-height: 150px;
     transform-style: preserve-3d;
+    transition: all .5s;
 }
 .box>div{
     position: absolute;
@@ -30,6 +34,7 @@ body{
     top: 0;
     color: #fff;
     font-weight: 1000;
+    font-size: 25px;
     box-sizing: border-box;
 }
 .box div:nth-child(1){
